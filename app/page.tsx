@@ -4,18 +4,20 @@ import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Education from "../components/Education";
 import Achievements from "../components/Achievements";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-sans">
       <Header />
       <Introduction />
-      <div className="pl-4 sm:pl-8 md:pl-16 lg:pl-30">
+      <div className="px-4 sm:px-8 md:px-16 lg:px-30 ">
         <Experience />
         <Skills />
         <Education />
         <Achievements />
       </div>
+      <Footer />
     </div>
   );
 }

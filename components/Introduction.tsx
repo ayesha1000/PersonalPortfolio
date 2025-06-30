@@ -4,17 +4,18 @@ import Image from "next/image";
 const Introduction = () => {
   return (
     <div id="introduction">
-      <div className="flex flex-col bg-[#93376f] px-4 sm:px-8 md:px-16 lg:px-[7.5rem] text-white">
-        <h1 className="text-center text-3xl font-bold pt-30">
-          Hi, I’m Ayesha Munir
-        </h1>
-        <div className="pt-20 pb-20 text-m">
+      <div className="hidden lg:block absolute top-[200px] right-[80px]">
+        <Image src="/desktop.svg" alt="icon" width={500} height={500} />
+      </div>
+      <div className="flex flex-col bg-[#072a38] px-4 py-30 sm:px-8 md:px-16 lg:px-[7.5rem]  text-white">
+        <h1 className="text-4xl font-bold pt-30">Hi, I’m Ayesha Munir</h1>
+
+        <div className=" pt-10 pb-10 lg:pt-20 lg:pb-20 text-l lg:w-[60%]">
           <p className="pb-5">
             I’m a Frontend Developer with over 4 years of experience building
-            scalable, high-performance web applications. I work primarily with
-            React, Redux, and modern JavaScript, and have hands-on experience
-            integrating AI features like ChatGPT to improve functionality and
-            user experience.
+            fast, scalable, and user-friendly web applications. I specialize in
+            React, Redux, and modern JavaScript, with a strong focus on
+            performance, accessibility, and seamless user experience.
           </p>
           <p className="pb-5">
             Based in Belfast, UK, I’ve contributed to projects ranging from
@@ -27,10 +28,10 @@ const Introduction = () => {
           </p>
           <p className="pb-5">
             I enjoy working on practical solutions that address real-world
-            needs, and I’m always looking to refine my skills and stay current
-            with evolving technologies.
+            needs. I believe great software is built through thoughtful design,
+            teamwork, and relentless curiosity.
           </p>
-          <div className="flex text-center w-full justify-center gap-10 pt-10">
+          <div className="flex text-center w-full gap-10 pt-10">
             <a
               href="https://www.linkedin.com/in/ayesha-munir-0462321a4/"
               target="_blank"
@@ -40,26 +41,26 @@ const Introduction = () => {
               <Image
                 src="/linkedin.png"
                 alt="LinkedIn Profile"
-                width={32}
-                height={32}
+                width={42}
+                height={42}
                 className="cursor-pointer"
               />
             </a>
             <a href="mailto:ayeshamunir1000@gmail.com" className="inline-block">
               <Image
-                src="/email.png"
+                src="/mail.png"
                 alt="Email Icon"
-                width={32}
-                height={32}
+                width={40}
+                height={40}
                 className="cursor-pointer"
               />
             </a>
             <a href="tel:+447475007780" className="inline-block">
               <Image
-                src="/phone-call.png"
+                src="/phone.png"
                 alt="Phone Icon"
-                width={32}
-                height={32}
+                width={40}
+                height={40}
                 className="cursor-pointer"
               />
             </a>

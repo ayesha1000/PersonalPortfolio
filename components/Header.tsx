@@ -24,7 +24,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 w-full bg-white shadow z-50">
-      <nav className="bg-[#93376f] text-white h-20 sticky top-0 border-b border-white z-50 flex items-center justify-center flex-wrap gap-4 sm:gap-6 md:gap-10 ">
+      <nav className="bg-[#072a38] text-white h-20 sticky top-0 border-b border-white z-50 flex items-center justify-center flex-wrap gap-4 sm:gap-6 md:gap-10 ">
         {sections.map((id) => (
           <button
             key={id}
@@ -32,7 +32,7 @@ export default function Header() {
             className={`text-sm font-medium transition-all ${
               activeId === id
                 ? "text-white border-b-2 border-white"
-                : "text-[#eda9d3] hover:text-[#eda9d3]"
+                : "text-[#dee5e7] hover:text-[#dee5e7]"
             }`}
           >
             {id.toUpperCase()}

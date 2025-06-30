@@ -32,11 +32,11 @@ const Achievements = () => {
       className="p-6 bg-white rounded"
     >
       <div id="achievements" className="flex flex-col mb-20">
-        <h1 className="text-center text-3xl font-bold pt-20 text-[#93376f]">
+        <h1 className="text-center text-3xl font-bold pt-20 text-[#072a38]">
           Achievements
         </h1>
         <div className="grid gap-4 md:grid-cols-2  pt-10">
-          <div className="bg-gradient-to-r from-[#93376f] to-[#b36896] text-white p-5 rounded-lg shadow-md">
+          <div className="bg-gradient-to-r from-[#072a38] to-[#116a83] text-white p-5 rounded-lg shadow-md">
             <h3 className="text-lg font-semibold">President’s Gold Medalist</h3>
             <p className="text-sm mt-1">
               Awarded for securing <strong>1st position</strong> across the
@@ -45,7 +45,7 @@ const Achievements = () => {
               excellence.
             </p>
           </div>
-          <div className="bg-gradient-to-r from-[#93376f] to-[#b36896] text-white p-5 rounded-lg shadow-md">
+          <div className="bg-gradient-to-r from-[#072a38] to-[#116a83] text-white p-5 rounded-lg shadow-md">
             <h3 className="text-lg font-semibold">Rector’s Gold Medal</h3>
             <p className="text-sm mt-1">
               Honored for presenting the{" "}

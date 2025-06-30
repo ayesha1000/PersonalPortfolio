@@ -33,10 +33,10 @@ const Experience = () => {
       className="p-6 bg-white rounded"
     >
       <div id="skills">
-        <h1 className="text-center text-3xl font-bold pt-10 text-[#93376f]">
+        <h1 className="text-center text-3xl font-bold pt-10 text-[#072a38]">
           Skills
         </h1>
-        <p className="text-xl font-bold pt-20 text-[#93376f]">
+        <p className="text-xl font-bold pt-20 text-[#072a38]">
           Languages and Styling
         </p>
         <div className="flex pt-5 flex-wrap gap-4 sm:gap-6 md:gap-10">
@@ -50,14 +50,14 @@ const Experience = () => {
           <Chip>Bootstrap</Chip>
           <Chip>Styled Components</Chip>
         </div>
-        <p className="text-xl font-bold pt-10 text-[#93376f]">
+        <p className="text-xl font-bold pt-10 text-[#072a38]">
           State Management
         </p>
         <div className="flex  flex-wrap pt-5 gap-4 sm:gap-6 md:gap-10">
           <Chip>Redux</Chip>
           <Chip>Context API</Chip>
         </div>
-        <p className="text-xl font-bold pt-10 text-[#93376f]">
+        <p className="text-xl font-bold pt-10 text-[#072a38]">
           API Integration
         </p>
         <div className="flex  flex-wrap pt-5 gap-4 sm:gap-6 md:gap-10">
@@ -66,12 +66,12 @@ const Experience = () => {
           <Chip>Postman</Chip>
           <Chip>Swagger</Chip>
         </div>
-        <p className="text-xl font-bold pt-10 text-[#93376f]">Databases</p>
+        <p className="text-xl font-bold pt-10 text-[#072a38]">Databases</p>
         <div className="flex  flex-wrap gap-10 pt-5">
           <Chip>MySQL</Chip>
           <Chip>Postgres MySQL</Chip>
         </div>
-        <p className="text-xl font-bold pt-10  text-[#93376f]">
+        <p className="text-xl font-bold pt-10  text-[#072a38]">
           Tools & Technologies
         </p>
         <div className="flex flex-wrap gap-4 sm:gap-6 md:gap-10 pt-5">

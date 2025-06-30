@@ -33,10 +33,10 @@ const Experience = () => {
       className="p-6 bg-white rounded"
     >
       <div id="experience" className="flex flex-col ">
-        <h1 className="text-center text-3xl font-bold pt-20 text-[#93376f]">
+        <h1 className="text-center text-3xl font-bold pt-20 text-[#072a38]">
           Experience
         </h1>
-        <div className=" text-l font-bold text-[#93376f] pb-5 mt-10">
+        <div className=" text-l font-bold text-[#072a38] pb-5 mt-10">
           <h3 className="font-semibold">
             Senior Software Engineer — NorthBay Solutions{" "}
             <span className="text-l italic text-gray-600">
@@ -45,7 +45,7 @@ const Experience = () => {
           </h3>
           <p className="text-l italic text-gray-600 mb-2">2021 - present</p>
         </div>
-        <div className="p-10 text-l bg-[#faedf5] border border-[#93376f] rounded-md text-black shadow-xl">
+        <div className="p-10 text-l bg-[#dee5e7] border border-[#072a38] rounded-md text-black shadow-xl">
           <div className="mb-8">
             <h3 className="text-l font-bold">INTELLIGIZE</h3>
             <p className="italic text-md mb-2 mt-2">
@@ -103,18 +103,18 @@ const Experience = () => {
               </li>
             </ul>
           </div>
-          <div className="flex gap-4">
-            <div className="flex-1 relative aspect-video">
+          <div className="flex gap-6">
+            <div className="flex-1 relative aspect-video hidden lg:block">
               <Image
-                src="/intelligize2.png"
+                src="/intelligize2.PNG"
                 alt="Logo1"
                 fill
                 className="object-cover rounded shadow-xl"
               />
             </div>
-            <div className="flex-1 relative aspect-video">
+            <div className="flex-1 relative aspect-video hidden lg:block">
               <Image
-                src="/intelligize3.png"
+                src="/intelligize3.PNG"
                 alt="Logo2"
                 fill
                 className="object-cover rounded shadow-xl"
@@ -123,7 +123,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="p-10 mt-10 text-l bg-[#faedf5] border border-[#93376f] rounded-md text-black shadow-xl">
+        <div className="p-10 mt-10 text-l bg-[#dee5e7] border border-[#072a38] rounded-md text-black shadow-xl">
           <div className="mb-8">
             <h3 className="text-l font-bold">THE SITE</h3>
             <p className="italic text-md mb-2 mt-2">

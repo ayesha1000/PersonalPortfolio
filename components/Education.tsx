@@ -32,12 +32,12 @@ const Experience = () => {
       className="p-6 bg-white rounded"
     >
       <div id="education" className="flex flex-col">
-        <h1 className="text-center text-3xl font-bold pt-20 text-[#93376f]">
+        <h1 className="text-center text-3xl font-bold pt-20 text-[#072a38]">
           Education
         </h1>
         <div className="space-y-6  pt-10">
-          <div className="bg-white p-6 rounded-lg shadow-xl">
-            <h3 className="text-xl font-semibold text-[#93376f]">
+          <div className="bg-[#dee5e7] p-6 rounded-lg shadow-xl">
+            <h3 className="text-xl font-semibold text-[#072a38]">
               Bachelors of Science in Computer Science
             </h3>
             <p className="text-gray-700">
