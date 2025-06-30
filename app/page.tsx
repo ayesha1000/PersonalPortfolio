@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Introduction from "../components/Introduction";
-import Experience from "../components/Experience";
+import Experience from "../components/ExperienceWrapper";
 import Skills from "../components/Skills";
 import Education from "../components/Education";
 import Achievements from "../components/Achievements";
